@@ -1,5 +1,47 @@
 h1 {
-    background-color: #FFC0CB;
-    font-size: large;
+    font-size:50px;
     text-align: center;
+    display: block;
+    padding: 20px;
+}
+header {
+    background-color: #FADDE1;
+    display: block;
+    text-align: center;
+    height: 100px;
+    
+}
+.Bio{
+    background-color: #d8e2dc;
+    padding-block: 2px;
+    margin-block: 5px;
+}
+.edu{
+    background-color: #ffe5d9;
+    padding-block: 2px;
+    margin-block: 5px;
+
+}
+.jobs{
+    background-color: #ffcad4;
+    padding-block: 2px;
+    margin-block: 5px;
+}
+.goals{
+    background-color: #f4acb7;
+    padding-block: 2px;
+    margin-block: 5px;
+}
+p{ 
+    padding-left: 15px;
+
+}
+h2{
+    padding-left: 15px;
+}
+h3{
+    padding-left:15px;
+}
+ol{
+    padding-left: 50px;
 }
