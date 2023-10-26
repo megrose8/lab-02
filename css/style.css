@@ -3,6 +3,7 @@ h1 {
     text-align: center;
     display: block;
     padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 header {
     background-color: #FADDE1;
@@ -13,7 +14,7 @@ header {
 }
 .Bio{
     background-color: #d8e2dc;
-    padding-block: 2px;
+    padding-block: 5px;
     margin-block: 5px;
 }
 .edu{
@@ -32,16 +33,49 @@ header {
     padding-block: 2px;
     margin-block: 5px;
 }
+.topTen{
+    background-color: #FADDE1;
+    padding-block: 2px;
+    margin-block: 5px;
+}
 p{ 
     padding-left: 15px;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
     padding-left: 15px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:-1px;
 }
 h3{
     padding-left:15px;
+    padding-bottom: 10px;
 }
 ol{
     padding-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    padding-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: decimal;
+}
+#jobList{
+    padding-left: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    padding-bottom: 10px
+}
+li{
+    padding-bottom: 10px;
+}
+body{
+    background-image: url("")
+}
+ol{
+    list-style: circle;
 }

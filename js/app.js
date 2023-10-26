@@ -131,7 +131,7 @@ alert("The correct answers were Spokane, Portland, Everett, and Seattle.")
 //goodbye message//
 
 
-alert('Thanks for playing ' + userName + '!' + 'You got ' + correctAnswers + ' correct. Hope you learned some new things about me!' )
+alert('Thanks for playing ' + userName  + '! You got ' + correctAnswers + ' correct. Hope you learned some new things about me!' )
 
 
 
