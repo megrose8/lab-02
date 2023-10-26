@@ -6,8 +6,8 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 380px;
-    margin-right: 370px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color: #FADDE1;
     opacity: 100%;
     border-radius: 20px;
@@ -21,15 +21,20 @@ header {
 }
 .Bio{
     background-color: #d8e2dc;
-    padding-block: 5px;
+    padding-block: 10px;
     margin-block: 5px;
     border-radius: 20px;
+    width: 82%;
+    margin-bottom: 12px;
+    
 }
 .edu{
     background-color: #ffe5d9;
     padding-block: 2px;
     margin-block: 5px;
     border-radius: 20px;
+    width: 82%;
+    margin-bottom: 12px;
 
 }
 .jobs{
@@ -37,18 +42,24 @@ header {
     padding-block: 2px;
     margin-block: 5px;
     border-radius: 20px;
+    width: 82%;
+    margin-bottom: 12px;
 }
 .goals{
     background-color: #f4acb7;
     padding-block: 2px;
     margin-block: 5px;
     border-radius: 20px;
+    width: 82%;
+    margin-bottom: 12px;
 }
 .topTen{
     background-color: #FADDE1;
     padding-block: 2px;
     margin-block: 5px;
     border-radius: 20px;
+    width: 82%;
+    margin-bottom: 12px;
 }
 p{ 
     padding-left: 15px;
@@ -90,4 +101,20 @@ body{
 }
 ol{
     list-style: circle;
+}
+img{ 
+    position:absolute;
+    top: 115px;
+    right: 20px;
+    border-radius: 20px;
+}
+footer{
+    height: 100px;
+    background-color: #ffe5d9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#footerText{
+    font-size: large;
+    text-align: center;
 }
