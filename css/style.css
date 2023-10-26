@@ -4,39 +4,51 @@ h1 {
     display: block;
     padding: 20px;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 380px;
+    margin-right: 370px;
+    background-color: #FADDE1;
+    opacity: 100%;
+    border-radius: 20px;
 }
 header {
-    background-color: #FADDE1;
     display: block;
     text-align: center;
     height: 100px;
+    background-image: url("https://github.com/megrose8/lab-02/blob/main/img/page-background.jpg?raw=true");
     
 }
 .Bio{
     background-color: #d8e2dc;
     padding-block: 5px;
     margin-block: 5px;
+    border-radius: 20px;
 }
 .edu{
     background-color: #ffe5d9;
     padding-block: 2px;
     margin-block: 5px;
+    border-radius: 20px;
 
 }
 .jobs{
     background-color: #ffcad4;
     padding-block: 2px;
     margin-block: 5px;
+    border-radius: 20px;
 }
 .goals{
     background-color: #f4acb7;
     padding-block: 2px;
     margin-block: 5px;
+    border-radius: 20px;
 }
 .topTen{
     background-color: #FADDE1;
     padding-block: 2px;
     margin-block: 5px;
+    border-radius: 20px;
 }
 p{ 
     padding-left: 15px;
@@ -74,7 +86,7 @@ li{
     padding-bottom: 10px;
 }
 body{
-    background-image: url("")
+    background-image: url("https://github.com/megrose8/lab-02/blob/main/img/page-background.jpg?raw=true")
 }
 ol{
     list-style: circle;
