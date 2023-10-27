@@ -126,8 +126,8 @@ let citiesLivedIn = ["seattle", "spokane", "everett", "portland"]
 let cityAttempts = 6
 
 while (cityAttempts > 0) {
-  let userGuess = prompt("Guess what American cities I have lived in. You have " + cityAttempts + " guesses remaining");
-  userGuess.toLowerCase();
+  let userGuess = prompt("Guess what American cities I have lived in. You have " + cityAttempts + " guesses remaining").toLowerCase();
+  // userGuess.toLowerCase();
   if (citiesLivedIn.includes(userGuess)) {
     cityAttempts--;
     alert("Good job " + userGuess + " is one of the cities!");
