@@ -23,6 +23,7 @@ else {
   alert('no not quite...');
 }
 }
+educationFunction()
 
 // //question 2//
 function homeTownFunction(){
@@ -38,6 +39,7 @@ else {
   alert('Lower your expectations, you are incorrect');
 }
 }
+homeTownFunction()
 
 // //question 3//
 function petFunction() {
@@ -53,6 +55,7 @@ else {
   alert('Nope! Not quite.');
 }
 }
+petFunction()
 
 // //question 4//
 function majorFunction() {
@@ -68,6 +71,7 @@ else {
   alert('Nope! Think of something less applicable to the employment market.');
 }
 }
+majorFunction()
 
 // //question 5//
 function hobbyFunction(){
@@ -83,6 +87,7 @@ else {
   alert('Incorrect! I love to read.');
 }
 }
+hobbyFunction()
 
 // //question 6//
 function yearFunction(){
@@ -112,6 +117,7 @@ while (yearAttempts < 4) {
   }
 }
 }
+yearFunction()
 
 
 //question 7//
@@ -133,23 +139,9 @@ while (cityAttempts > 0) {
   }
 }
 }
-educationFunction()
-
-homeTownFunction()
-
 cityFunction()
-
 alert("The correct answers were Spokane, Portland, Everett, and Seattle.")
 
-yearFunction()
-
-hobbyFunction()
-
-majorFunction()
-
-petFunction()
-
 //goodbye message//
-
 alert('Thanks for playing ' + userName + '! You got ' + correctAnswers + ' correct. Hope you learned some new things about me!')
 
